@@ -1,0 +1,109 @@
+/*fonte e cor de fundo de todo site*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100%;
+    background-image: url(../image/magic.gif);
+    
+
+
+}
+/*alinhamneto e cor dos h1*/
+h1{
+text-align: center;
+color:white;
+}
+/*alinhamneto e cor dos h3*/
+h3{
+    text-align: center;
+    color:white;
+    }
+/*cor e fonte dos textos*/
+.formulario {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*tamanho que a div ocupa no site, com o tamanho do texto e o alinhamento*/
+.cadastro{
+    margin: auto;
+    width: 40%;
+    font-size: 15px;
+}
+/*configurações de todos os inputs como tamanho, espaçamento, alinhamneto, display, borda e cor da div*/
+input[type=text], select {
+    width: 100%;
+    padding:12px 20px ;
+    margin: 8px 0 ;
+    display:inline-block ;
+    border:1px solid #ccc ;
+    border-radius:4px ;
+    box-sizing:border-box ;
+    background-color: #fdf3c5;
+}
+/*configurações de todos os inputs como tamanho, espaçamento, alinhamneto, display, borda e cor da div*/
+input[type=date], select {
+    width: 100%;
+    padding:12px 20px ;
+    margin: 8px 0 ;
+    display:inline-block ;
+    border:1px solid #ccc ;
+    border-radius:4px ;
+    box-sizing:border-box ;
+    background-color: #fdf3c5;
+}
+/*configurações de todos os inputs como tamanho, espaçamento, alinhamneto, display, borda e cor da div*/
+input[type=tel], select {
+    width: 100%;
+    padding:12px 20px ;
+    margin: 8px 0 ;
+    display:inline-block ;
+    border:1px solid #ccc ;
+    border-radius:4px ;
+    box-sizing:border-box ;
+    background-color: #fdf3c5;
+}
+/*configurações de todos os inputs como tamanho, espaçamento, alinhamneto, display, borda e cor da div*/
+input[type=email], select {
+    width: 100%;
+    padding:12px 20px ;
+    margin: 8px 0 ;
+    display:inline-block ;
+    border:1px solid #ccc ;
+    border-radius:4px ;
+    box-sizing:border-box ;
+    background-color:#fdf3c5;
+}
+/*configurações de todos os inputs como tamanho, espaçamento, alinhamneto, display, borda e cor da div*/
+input[type=password], select {
+    width: 100%;
+    padding:12px 20px ;
+    margin: 8px 0 ;
+    display:inline-block ;
+    border:1px solid #ccc ;
+    border-radius:4px ;
+    box-sizing:border-box ;
+    background-color: #fdf3c5;
+}
+/*configurações de todos os inputs como tamanho, espaçamento, alinhamneto, display, borda e cor da div*/
+input[type=button], select {
+    width: 100%;
+    padding:12px 20px ;
+    margin: 8px 0 ;
+    display:inline-block ;
+    border: none;
+    border-radius:4px ;
+    box-sizing:border-box ;
+    cursor: pointer;
+    background-color: rgb(107, 120, 163);
+    color: #fff;
+    font-weight: bold;
+}
+ /*hover dos botões*/
+input[type=button]:hover{
+    background-color: #7acada;
+}
+/*borda, cor e espaçamento de toda a div*/
+div {
+    border-radius: 50px;
+    background-color:rgb(25, 29, 42);
+    padding: 20px;
+}
